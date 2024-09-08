@@ -23,8 +23,12 @@ git clone https://github.com/TUX14/RAM-Disk-Benchmark.git
 cd RAM-Disk-Benchmark
 
 :: Install dependencies
-echo Installing dependencies...
-pip install -r requirements.txt
+if exist requirements.txt (
+    echo Installing dependencies...
+    pip install -r requirements.txt
+) else (
+    echo requirements.txt not found. Please check the repository.
+)
 
 echo Setup complete. You can now run the application by executing python app.py
 pause
