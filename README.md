@@ -1,44 +1,45 @@
-RAM-Disk-Benchmark
-Overview
-RAM-Disk-Benchmark is a utility designed to evaluate and benchmark the performance of your computer's storage and memory. The application provides detailed metrics on read and write speeds of your disks and tests the performance of your RAM. This tool is useful for assessing hardware performance and diagnosing potential issues.
+# RAM-Disk-Benchmark
 
-Features
-Disk Performance Testing: Measures the read and write speeds of your disks.
-Memory Performance Testing: Evaluates RAM performance by testing memory allocation and usage.
-Detailed Results: Displays performance metrics and provides visualizations of the results.
-Installation
-Download and Run the Setup Script:
+## Overview
 
-Download the setup.bat script from this repository and run it. This script will prepare your system by installing Python dependencies and cloning the repository.
-Note: Ensure that you have Git installed on your system. If not, you can download it from Git for Windows.
+**RAM-Disk-Benchmark** is a utility designed to evaluate and benchmark the performance of your computer's storage and memory. The application provides detailed metrics on read and write speeds of your disks and tests the performance of your RAM. This tool is useful for assessing hardware performance and diagnosing potential issues.
 
-Manually Install Dependencies (if needed):
+## Features
 
-If you prefer to manually install the dependencies or the script fails, you can do so by following these steps:
+<ul>
+  <li><strong>Disk Performance Testing:</strong> Measures the read and write speeds of your disks.</li>
+  <li><strong>Memory Performance Testing:</strong> Evaluates RAM performance by testing memory allocation and usage.</li>
+  <li><strong>Detailed Results:</strong> Displays performance metrics and provides visualizations of the results.</li>
+</ul>
 
-Clone the Repository:
-$git clone https://github.com/TUX14/RAM-Disk-Benchmark.git
+## Installation
 
-Navigate to the Project Directory:
-$cd RAM-Disk-Benchmark
+### Download and Run the Setup Script
 
-Install Dependencies:
-pip install -r requirements.txt
-Make sure you have Python installed. Install the required Python packages using pip:
+1. Download the `setup.bat` script from this repository.
+2. Run the script to prepare your system by installing Python dependencies and cloning the repository.
 
-License
-This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
+   <p><strong>Note:</strong> Ensure that you have Git installed on your system. If not, you can download it from <a href="https://gitforwindows.org/" target="_blank">Git for Windows</a>.</p>
 
-Permissive Use: You are free to use and modify the software for non-commercial purposes.
-Non-Commercial Use: Commercial use or redistribution as part of a commercial product is prohibited.
-Contributing
+
+## License
+
+This project is licensed under the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</a> license.
+
+<ul>
+  <li><strong>Permissive Use:</strong> You are free to use and modify the software for non-commercial purposes.</li>
+  <li><strong>Non-Commercial Use:</strong> Commercial use or redistribution as part of a commercial product is prohibited.</li>
+</ul>
+
+## Contributing
+
 Contributions are welcome! To contribute, fork the repository and submit a pull request with your changes. For significant changes, please open an issue first to discuss potential modifications.
 
-Contact
+## Contact
+
 For questions or feedback, please contact:
 
-Email: tux2915@gmail.com
-GitHub: TUX14
-
-
-
+<ul>
+  <li><strong>Email:</strong> <a href="mailto:tux2915@gmail.com">tux2915@gmail.com</a></li>
+  <li><strong>GitHub:</strong> <a href="https://github.com/TUX14" target="_blank">TUX14</a></li>
+</ul>
