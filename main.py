@@ -18,7 +18,7 @@ def list_disks():
     return partitions
 
 def measure_write_speed(file_path, size_in_mb):
-    """Measures write speed."""
+    """Measures write speeed."""
     data = os.urandom(size_in_mb * 1024 * 1024)
     start_time = time.time()
     try:
