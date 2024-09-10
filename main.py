@@ -41,7 +41,7 @@ def measure_read_speed(file_path, size_in_mb):
     end_time = time.time()
     read_speed = size_in_mb / (end_time - start_time)
     return read_speed
-#asdasd
+
 def verify_data(file_path, original_data, size_in_mb):
     """Verifies if the read data matches the originally written data."""
     try:
